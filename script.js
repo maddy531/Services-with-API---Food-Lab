@@ -11,6 +11,12 @@ app.config(function($routeProvider){
     templateUrl: "displayView.html"
   });
 
+  $routeProvider.when('/api',{
+  controller: 'apiCtrl',
+  templateUrl: "api.html"
+});
+
+
   $routeProvider.otherwise({redirectTo:"/inputView"})
 
 });
