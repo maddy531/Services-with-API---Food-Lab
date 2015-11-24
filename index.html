@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script data-require="angular.js@*" data-semver="1.4.0" src="https://code.angularjs.org/1.4.0/angular.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.js"></script>
+    <script src="script.js"></script>
+    <script src="ctrlInput.js"></script>
+    <script src="ctrlDisplay.js"></script>
+    <script src="service.js"></script>
+
+
+  </head>
+
+  <body ng-app="serviceModule">
+    <div class="content">
+      <ul>
+        <li><a class="tab"href = "#/inputView">Enter</a></li>
+        <li><a class="tab"href = "#/displayView">View</a></li>
+      </ul>
+
+      <ng-view></ng-view>
+     </div>
+  </body>
+
+</html>

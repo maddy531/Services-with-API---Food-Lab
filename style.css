@@ -1,0 +1,32 @@
+body{
+  background-image: url(https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/10/106/106396/keih4mm9pyv3kpq8scymlnub2aecxzs9iscdane82nvbmfcc3leqqh7pjk0adoki-o.jpg?1399222056);
+}
+img {
+  margin: 2em;
+}
+.content {
+  height: 550px;
+  width: 80%;
+  background-color: #F56A5F;
+  text-align: center;
+  display: inline-block;
+  opacity: .90;
+  padding: 2em;
+  border-radius: 2em;
+  position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+  margin: auto;
+}
+.content ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 1em;
+}
+.tab{
+  font-size: 2em;
+  color: #4C2355
+}
